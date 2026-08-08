@@ -1,0 +1,45 @@
+{
+  "calendar_name": "San Francisco Public Pools - Lap Swim",
+  "feed_revision": 3,
+  "timezone": "America/Los_Angeles",
+  "citywide_closures": ["20260619", "20260704"],
+  "schedule_sources": [
+    {"pool":"Balboa Pool","page":"https://sfrecpark.org/Facilities/Facility/Details/Balboa-Pool-212","document_id":"29562"},
+    {"pool":"Mission Pool","page":"https://sfrecpark.org/Facilities/Facility/Details/Mission-Community-Pool-217","document_id":"29566"},
+    {"pool":"Sava Pool","page":"https://sfrecpark.org/Facilities/Facility/Details/Sava-Pool-220","document_id":"29571"},
+    {"pool":"Rossi Pool","page":"https://sfrecpark.org/Facilities/Facility/Details/Rossi-Pool-219","document_id":"29570"},
+    {"pool":"Garfield Pool","page":"https://sfrecpark.org/Facilities/Facility/Details/Garfield-Pool-214","document_id":"29564"}
+  ],
+  "sessions": [
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["TU"],"start":"07:00","end":"08:00"},
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["TH"],"start":"07:00","end":"08:00"},
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["FR"],"start":"10:30","end":"12:30"},
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["TU","WE"],"start":"12:30","end":"13:30"},
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["TH"],"start":"14:30","end":"15:30"},
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["SA"],"start":"09:00","end":"10:30","note":"Deep pool only"},
+    {"pool":"Balboa Pool","start_date":"20260609","end_date":"20260815","days":["SA"],"start":"16:00","end":"17:00"},
+
+    {"pool":"Mission Pool","start_date":"20260609","end_date":"20260815","days":["TU","TH"],"start":"07:00","end":"08:30"},
+    {"pool":"Mission Pool","start_date":"20260609","end_date":"20260815","days":["TU","WE","TH"],"start":"10:45","end":"12:30"},
+    {"pool":"Mission Pool","start_date":"20260609","end_date":"20260815","days":["FR"],"start":"13:30","end":"16:30"},
+    {"pool":"Mission Pool","start_date":"20260609","end_date":"20260815","days":["SA"],"start":"15:30","end":"17:00"},
+    {"pool":"Mission Pool","start_date":"20260609","end_date":"20260815","days":["WE"],"start":"16:30","end":"19:00"},
+    {"pool":"Mission Pool","start_date":"20260609","end_date":"20260815","days":["TU","TH"],"start":"17:45","end":"19:00"},
+
+    {"pool":"Sava Pool","start_date":"20260630","end_date":"20260815","days":["TU","TH"],"start":"06:30","end":"08:00"},
+    {"pool":"Sava Pool","start_date":"20260630","end_date":"20260815","days":["SA"],"start":"09:00","end":"11:00","note":"4 lanes"},
+    {"pool":"Sava Pool","start_date":"20260630","end_date":"20260815","days":["WE","FR","SA"],"start":"15:30","end":"17:00"},
+    {"pool":"Sava Pool","start_date":"20260630","end_date":"20260815","days":["WE"],"start":"19:00","end":"20:30"},
+
+    {"pool":"Rossi Pool","start_date":"20260607","end_date":"20260813","days":["SU"],"start":"07:30","end":"08:30"},
+    {"pool":"Rossi Pool","start_date":"20260607","end_date":"20260813","days":["MO","TU","WE","TH"],"start":"07:00","end":"08:15"},
+    {"pool":"Rossi Pool","start_date":"20260607","end_date":"20260813","days":["MO","WE"],"start":"14:00","end":"15:45"},
+    {"pool":"Rossi Pool","start_date":"20260607","end_date":"20260813","days":["TU","TH"],"start":"12:45","end":"13:45"},
+    {"pool":"Rossi Pool","start_date":"20260607","end_date":"20260813","days":["MO","TU","WE","TH"],"start":"18:15","end":"19:30","note":"3 lanes Tue/Thu"},
+
+    {"pool":"Garfield Pool","start_date":"20260607","end_date":"20260813","days":["SU"],"start":"08:30","end":"10:30"},
+    {"pool":"Garfield Pool","start_date":"20260607","end_date":"20260813","days":["MO","TU","WE","TH"],"start":"07:00","end":"08:30"},
+    {"pool":"Garfield Pool","start_date":"20260607","end_date":"20260813","days":["SU"],"start":"12:30","end":"14:00"},
+    {"pool":"Garfield Pool","start_date":"20260607","end_date":"20260813","days":["MO","WE"],"start":"17:30","end":"19:00"}
+  ]
+}

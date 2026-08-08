@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: sf-pool-lap-swim-feed
+    runtime: docker
+    plan: starter
+    region: oregon
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
